@@ -2,6 +2,7 @@
 """A task to show the how to save an object to a json file"""
 import json
 
+
 def save_to_json_file(my_obj, filename):
     """A function that saves object to a json file
     Args:
@@ -9,4 +10,4 @@ def save_to_json_file(my_obj, filename):
         filename: The file to save to json"""
 
     with open(filename, 'w', encoding="utf-8") as f:
-        json.dump(my_obj)
+        json.dumps(my_obj)
