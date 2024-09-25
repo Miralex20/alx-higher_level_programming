@@ -2,7 +2,7 @@
 """ A function that defines the write/append operation on python """
 
 
-def append_write_file(filename='', text=''):
+def append_write(filename='', text=''):
     """Write a string to a utf8 text file.
         Args:
             filename (str): The name of the file to write.
